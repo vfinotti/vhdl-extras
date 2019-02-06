@@ -456,8 +456,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;
 
-library extras;
-use extras.cordic.all;
+library work;
+use work.cordic.all;
 
 
 entity cordic_pipelined is
@@ -546,9 +546,9 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-library extras;
-use extras.cordic.all;
-use extras.pipelining.all;
+library work;
+use work.cordic.all;
+use work.pipelining.all;
 
 entity cordic_flex_pipelined is
   generic (
@@ -630,8 +630,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;
 
-library extras;
-use extras.cordic.all;
+library work;
+use work.cordic.all;
 
 entity cordic_sequential is
   generic (
@@ -752,8 +752,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;
 
-library extras;
-use extras.cordic.all;
+library work;
+use work.cordic.all;
 
 entity sincos_sequential is
   generic (
@@ -845,8 +845,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;
 
-library extras;
-use extras.cordic.all;
+library work;
+use work.cordic.all;
 
 entity sincos_pipelined is
   generic (
